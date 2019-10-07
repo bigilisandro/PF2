@@ -1,0 +1,29 @@
+{
+  "name": "pf2",
+  "version": "1.0.0",
+  "description": "proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss css/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigilisandro/PF2.git"
+  },
+  "keywords": [
+    "proyecto",
+    "final"
+  ],
+  "author": "lisandro bigi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigilisandro/PF2/issues"
+  },
+  "homepage": "https://github.com/bigilisandro/PF2#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.3"
+  }
+}
