@@ -22,7 +22,8 @@
     "url": "https://github.com/bigilisandro/PF2/issues"
   },
   "homepage": "https://github.com/bigilisandro/PF2#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.3"
   }
